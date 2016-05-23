@@ -6,7 +6,11 @@ __pycache__/
 # C extensions
 *.so
 *.pyc
-*.cfg
+*.swn
+*.swp
+*.swl
+*.swo
+
 
 
 # Distribution / packaging
