@@ -10,6 +10,7 @@ r =redis.Redis(host="127.0.0.1",port="6379" )
 class RmcUiTest(unittest.TestCase):
   
     def setUp(self):
+        app.config['DEBUG']=True
         r.set('uptime','30')
         r.set('eth_stat','ethactive')
         r.set('wlan','active')
